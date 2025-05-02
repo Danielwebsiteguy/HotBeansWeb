@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Beans Web - apply</title>
+    <link rel="stylesheet" href="assets/css/mystyle.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        nav { display: flex; align-items: center; justify-content: space-between; background: #444; padding: 10px; position: fixed; top: 0; width: 100%; z-index: 1000; }
+        .logo { height: 40px; margin-left: 15px; }
+        .nav-links { display: flex; }
+        .nav-links a { color: white; text-decoration: none; padding: 10px 15px; }
+        .nav-links a:hover { background: #555; }
+        header { background: #333; color: white; padding: 60px 15px 15px; text-align: center; }
+        .container { padding: 20px; max-width: 800px; margin: auto; margin-top: 80px; }
+        footer { background: #333; color: white; text-align: center; padding: 10px; position: absolute; width: 100%; bottom: 0; }
+    </style>
+</head>
+<body>
+    <nav>
+<img src="" alt="">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="developers.html">Developers</a>
+            <a href="jobs.html">Jobs</a>
+            <a href="apply.html">Apply</a>
+            <a href="about.html">About us</a>
+            <a href="resources.html">Resources</a>
+        </div>
+    </nav>
+    <header>
+        <h1>Hot Beans Web - Apply</h1>
+    </header>
+    <div class="container">
+        <h2>Welcome to Hot Beans Web</h2>
+        <p>We are a leading web development company looking for passionate developers to join our team. Explore our job listings and apply today!</p>
+        <form action="#" method="post" class="apply-form">
+            
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="category">Please select a role you want to apply for:</label><br>
+            <select id="category" name="category" required>
+                <option value=""></option>
+                <option value="junior-web-developer">Junior Web Developer</option>
+                <option value="front-end-developer">Front-End Developer</option>
+                <option value="back-end-developer">Back-End Developer</option>
+                <option value="web-designer">Web Designer</option>
+                <option value="full-stack-developer">Full Stack Developer</option>
+            </select><br><br>
+    
+            <!-- Submit Button -->
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+    <footer>
+        
+    </footer>
+</body>
+</html>

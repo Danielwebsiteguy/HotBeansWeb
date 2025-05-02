@@ -1,0 +1,20 @@
+body {
+    background-image: url(../images/backgroundimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.developer-profile {
+    color: black;
+}
+.employee-name {
+    color: black;
+}
+.container {
+    color: #f8f8f8;
+     margin-top: 20px; }

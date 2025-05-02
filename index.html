@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hot Beans Web - Careers</title>
+  <link rel="stylesheet" href="assets/css/mystyle.css"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      background: #444;
+      padding: 10px 20px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .nav-links {
+      display: flex;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+    }
+
+    .nav-links a:hover {
+      background: #555;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      background: #333;
+      color: white;
+      padding: 100px 20px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      grid-column: 2; 
+      margin: 0;
+    }
+
+    .logo {
+      grid-column: 3;
+      justify-self: end;
+      height: 50px;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="developers.html">Developers</a>
+      <a href="jobs.html">Jobs</a>
+      <a href="apply.html">Apply</a>
+      <a href="about.html">About us</a>
+      <a href="resources.html">Resources</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Hot Beans Web - Homepage</h1>
+    <img src="assets/images/just logo.PNG" alt="Hot Beans Web Logo" class="logo" />
+  </header>
+
+  <div class="container" style="background: #000000; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <h2 style="font-size: 28px;">Welcome to Hot Beans Web</h2>
+    <p style="font-size: 18px; line-height: 1.6;">
+      Hot Beans Web is your gateway into the world of professional web development.<br><br>
+      We are a modern, forward-thinking company that specializes in creating responsive, user-friendly websites for clients across the globe.<br><br>
+      Whether you're an aspiring developer looking to kickstart your career or someone exploring opportunities in tech, you've come to the right place.<br><br>
+      Browse our team, check out available roles, and take the first step toward joining our growing community of developers.
+    </p>
+  </div>
+
+  <footer>
+    <p>
+    </p>
+  </footer>
+</body>
+</html>
